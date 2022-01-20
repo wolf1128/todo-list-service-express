@@ -1,0 +1,39 @@
+{
+  "name": "todo-list-service-express",
+  "version": "1.0.0",
+  "description": "To Do List Service",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/professordev7/todo-list-service-express.git"
+  },
+  "author": "Salar Farahmand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/professordev7/todo-list-service-express/issues"
+  },
+  "homepage": "https://github.com/professordev7/todo-list-service-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.5.0",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.10",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2",
+    "typescript": "^4.5.4"
+  }
+}
